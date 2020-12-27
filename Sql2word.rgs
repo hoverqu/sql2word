@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		{FB1BDD61-EE10-475C-A9B3-C69A80105793} = s 'Sql2word'
+		'Sql2word.EXE'
+		{
+			val AppID = s {FB1BDD61-EE10-475C-A9B3-C69A80105793}
+		}
+	}
+}

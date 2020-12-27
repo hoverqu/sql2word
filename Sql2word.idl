@@ -1,0 +1,19 @@
+
+	// Sql2word.idl : IDL source for Sql2word.exe
+//
+// This file will be processed by the MIDL tool to
+// produce the type library (Sql2word.tlb) and marshalling code.
+import "oaidl.idl";
+import "ocidl.idl";
+[
+	uuid(C2A4670D-0DB0-440F-B1A7-04B2048F5A85),
+	version(1.0),
+	helpstring("Sql2word 1.0 Type Library")
+]
+library Sql2wordLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+};
+
+	

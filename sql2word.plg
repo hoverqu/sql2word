@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: sql2word - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/sql2word.res" /d "NDEBUG" "E:\vc_project\sql2word\sql2word.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP6657.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/sql2word.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\vc_project\sql2word\msword.cpp"
+"E:\vc_project\sql2word\sql2word.cpp"
+"E:\vc_project\sql2word\sql2wordDlg.cpp"
+"E:\vc_project\sql2word\WordHandle.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP6657.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP6668.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/sql2word.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\vc_project\sql2word\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP6668.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP6669.tmp" with contents
+[
+/OPT:NOREF /nologo /subsystem:windows /incremental:no /pdb:"Release/sql2word.pdb" /machine:I386 /out:"Release/sql2word.exe" 
+.\Release\msword.obj
+.\Release\sql2word.obj
+.\Release\sql2wordDlg.obj
+.\Release\StdAfx.obj
+.\Release\WordHandle.obj
+.\Release\sql2word.res
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP6669.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+msword.cpp
+sql2word.cpp
+sql2wordDlg.cpp
+WordHandle.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+sql2word.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
